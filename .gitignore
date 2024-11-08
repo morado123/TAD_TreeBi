@@ -1,5 +1,156 @@
+# General .gitignore for a variety of languages, tools, and frameworks
+
+# OS-specific and Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+pids
+*.pid
+
+# Compiled code
 *.class
+*.pyc
+*.pyo
+*.pyd
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+
+# Dependency directories
+node_modules/
+venv/
+.env/
+__pycache__/
+bin/
+bundle/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor Specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+*.vs/
+*.vscode/
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Java-specific
+*.jar
+*.war
+*.ear
+.target/
+
+# Python-specific
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.pytest_cache/
+.tox/
+
+# Django-specific
+*.db
+staticfiles/
+local_settings.py
+
+# JavaScript and TypeScript-specific
+lib-cov/
+coverage/
+.cache/
+dist/
+temp/
+*.tsbuildinfo
+
+# Angular specific
+dist/
+.angular/cache/
+
+# React Native specific
+ios/
+android/
+*.keystore
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Logs and Debug
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# JetBrains specific
+/.idea
+/.idea/
+*.iml
+out/
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS Finder Thumbnails
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows Thumbnails
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+*.swp
+
+# Other
+*.lock
+*.sqlite3
+*.svg
+public/
+
+# Docker-specific
+*.pid
+**/Dockerfile
+**/docker-compose*
+
+# Terraform-specific
+*.tfstate
+*.tfstate.backup
+.terraform/*
